@@ -11,7 +11,7 @@ function normal200() {
     for (let i = 0; i < 20; i++) {
         result = getRandom();
         if (result <= 67836) {
-            //0.7%が10連で一つ以上出る確率6.7836%
+            //0.7%が10連で一つ以上当たる確率6.7836%
             count = i + 1;
             total.push(count);
             return count + '0回';
